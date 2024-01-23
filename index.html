@@ -41,80 +41,84 @@
 <body class="font-manrope">
     <header class="container mx-auto">
         <div mx-5>
-        <nav>
-            <div class="navbar my-6">
-                <div class="navbar-start">
-                    <div class="dropdown">
-                        <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
-                            <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24"
-                                stroke="currentColor">
-                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-                                    d="M4 6h16M4 12h8m-8 6h16" />
-                            </svg>
+            <nav>
+                <div class="navbar my-6">
+                    <div class="navbar-start">
+                        <div class="dropdown">
+                            <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
+                                <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24"
+                                    stroke="currentColor">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                        d="M4 6h16M4 12h8m-8 6h16" />
+                                </svg>
+                            </div>
+                            <ul tabindex="0"
+                                class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52  text-[#424247]">
+                                <li><a class="text-red-500 font-bold">Home</a></li>
+                                <li><a>About</a></li>
+                                <li><a>Pages</a></li>
+                                <li><a>Blog</a></li>
+                                <li><a>Contact</a></li>
+                            </ul>
                         </div>
-                        <ul tabindex="0"
-                            class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52  text-[#424247]">
-                            <li><a class="text-red-500 font-bold">Home</a></li>
+                        <a class="btn btn-ghost text-[#131318] text-2xl lg:text-4xl font-extrabold">Hockey <span
+                                class="text-red-500">’</span>s</a>
+                    </div>
+                    <div class="navbar-center hidden lg:flex">
+                        <ul class="menu menu-horizontal px-1 text-[#424247] items-center">
+                            <li><a class="text-red-500 font-bold ">Home</a></li>
                             <li><a>About</a></li>
                             <li><a>Pages</a></li>
                             <li><a>Blog</a></li>
                             <li><a>Contact</a></li>
+                            <li><a><i class="fa-solid fa-magnifying-glass pl-16"></i></a></li>
                         </ul>
                     </div>
-                    <a class="btn btn-ghost text-[#131318] text-2xl lg:text-4xl font-extrabold">Hockey <span class="text-red-500">’</span>s</a>
-                </div>
-                <div class="navbar-center hidden lg:flex">
-                    <ul class="menu menu-horizontal px-1 text-[#424247] items-center">
-                        <li><a class="text-red-500 font-bold ">Home</a></li>
-                        <li><a>About</a></li>
-                        <li><a>Pages</a></li>
-                        <li><a>Blog</a></li>
-                        <li><a>Contact</a></li>
-                        <li><a><i class="fa-solid fa-magnifying-glass pl-16"></i></a></li>
-                    </ul>
-                </div>
-                <div class="navbar-end lg:w-1/3 mr-6">
-                    <a class="btn text-lg  lg:text-xl font-bold text-white bg-red-500 py-2 px-4">Get Ticket</a>
-                </div>
-            </div>
-        </nav>
-        <div class="relative">
-            <div class="carousel  mx-5">
-                <div id="slide1" class="carousel-item relative w-full">
-                    <img src="Images/1.png" class="w-full" />
-                    <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
-                        <a href="#slide4" class="btn btn-circle">❮</a>
-                        <a href="#slide2" class="btn btn-circle">❯</a>
+                    <div class="navbar-end lg:w-1/3 mr-6">
+                        <a class="btn text-lg  lg:text-xl font-bold text-white bg-red-500 py-2 px-4">Get Ticket</a>
                     </div>
                 </div>
-                <div id="slide2" class="carousel-item relative w-full">
-                    <img src="Images/1.png" class="w-full" />
-                    <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
-                        <a href="#slide1" class="btn btn-circle">❮</a>
-                        <a href="#slide3" class="btn btn-circle">❯</a>
+            </nav>
+            <div class="relative">
+                <div class="carousel  mx-5">
+                    <div id="slide1" class="carousel-item relative w-full">
+                        <img src="Images/1.png" class="w-full" />
+                        <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+                            <a href="#slide4" class="btn btn-circle">❮</a>
+                            <a href="#slide2" class="btn btn-circle">❯</a>
+                        </div>
+                    </div>
+                    <div id="slide2" class="carousel-item relative w-full">
+                        <img src="Images/1.png" class="w-full" />
+                        <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+                            <a href="#slide1" class="btn btn-circle">❮</a>
+                            <a href="#slide3" class="btn btn-circle">❯</a>
+                        </div>
+                    </div>
+                    <div id="slide3" class="carousel-item relative w-full">
+                        <img src="Images/1.png" class="w-full" />
+                        <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+                            <a href="#slide2" class="btn btn-circle">❮</a>
+                            <a href="#slide4" class="btn btn-circle">❯</a>
+                        </div>
+                    </div>
+                    <div id="slide4" class="carousel-item relative w-full">
+                        <img src="Images/1.png" class="w-full" />
+                        <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+                            <a href="#slide3" class="btn btn-circle">❮</a>
+                            <a href="#slide1" class="btn btn-circle">❯</a>
+                        </div>
                     </div>
                 </div>
-                <div id="slide3" class="carousel-item relative w-full">
-                    <img src="Images/1.png" class="w-full" />
-                    <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
-                        <a href="#slide2" class="btn btn-circle">❮</a>
-                        <a href="#slide4" class="btn btn-circle">❯</a>
-                    </div>
+                <div
+                    class="lg:absolute mt-4 mx-5 bottom-4 right-4 lg:bottom-8 lg:right-8  lg:w-1/2 p-2 lg:p-8 rounded-2xl bg-[#131318]">
+                    <h4 class="text-white tex-lg lg:text-2xl font-medium lg:font-extrabold mb-2 lg:mb-4">Meet all the
+                        heroes from the field</h4>
+                    <p class="font-medium text-[#ffffff99]">Gather around and encounter all the heroes on the field,
+                        each with their own unique stories and skills waiting to inspire.</p>
                 </div>
-                <div id="slide4" class="carousel-item relative w-full">
-                    <img src="Images/1.png" class="w-full" />
-                    <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
-                        <a href="#slide3" class="btn btn-circle">❮</a>
-                        <a href="#slide1" class="btn btn-circle">❯</a>
-                    </div>
-                </div>
-            </div>
-            <div class="lg:absolute mt-4 mx-5 bottom-4 right-4 lg:bottom-8 lg:right-8  lg:w-1/2 p-2 lg:p-8 rounded-2xl bg-[#131318]">
-                <h4 class="text-white tex-lg lg:text-2xl font-medium lg:font-extrabold mb-2 lg:mb-4">Meet all the heroes from the field</h4>
-                <p class="font-medium text-[#ffffff99]">Gather around and encounter all the heroes on the field, each with their own unique stories and skills waiting to inspire.</p>
             </div>
         </div>
-    </div>
     </header>
 
     <main class="container mx-auto">
@@ -124,30 +128,35 @@
 
             <div class="border-dashed border-y-2">
                 <h2 class="pt-8 text-4xl font-extrabold ">Professional Hockeys Club</h2>
-                <p class="font-medium mt-6 mb-8 text-[#13131899]">The Professional Hockeys Club is dedicated to fostering excellence in the sport of hockey. Our organization  is committed to providing <br> a platform for aspiring athletes to achieve their full potential.</p>
+                <p class="font-medium mt-6 mb-8 text-[#13131899]">The Professional Hockeys Club is dedicated to
+                    fostering excellence in the sport of hockey. Our organization is committed to providing <br> a
+                    platform for aspiring athletes to achieve their full potential.</p>
             </div>
-
-
+            <!-- radial progress container  -->
             <div class="mt-10 grid gap-6 grid-cols-1 lg:grid-cols-4">
+                <!-- progress 1 -->
                 <div>
                     <div class="mb-6 radial-progress text-red-500 " style="--value:87;" role="progressbar">87%</div>
                     <h3 class="mb-4 text-xl font-semibold">Prayer Facility</h3>
-                    <p>Amet consectetur. Condimentum dignissim adipiscing .</p>
+                    <p>Amet consectetur. Condimentum <br> dignissim adipiscing .</p>
                 </div>
+                <!-- progress 2 -->
                 <div>
                     <div class="mb-6 radial-progress text-green-500 " style="--value:95;" role="progressbar">95%</div>
                     <h3 class="mb-4 text-xl font-semibold">Experienced Coach</h3>
-                    <p>Amet consectetur. Condimentum dignissim adipiscing .</p>
+                    <p>Amet consectetur. Condimentum <br> dignissim adipiscing .</p>
                 </div>
+                <!-- progress 3 -->
                 <div>
                     <div class="mb-6 radial-progress text-yellow-500 " style="--value:90;" role="progressbar">90%</div>
                     <h3 class="mb-4 text-xl font-semibold">Senior Player</h3>
-                    <p>Amet consectetur. Condimentum dignissim adipiscing .</p>
+                    <p>Amet consectetur. Condimentum <br> dignissim adipiscing .</p>
                 </div>
+                <!-- progress 4 -->
                 <div>
                     <div class="mb-6 radial-progress text-blue-500 " style="--value:80;" role="progressbar">80%</div>
                     <h3 class="mb-4 text-xl font-semibold">Training Ground</h3>
-                    <p>Amet consectetur. Condimentum dignissim adipiscing .</p>
+                    <p>Amet consectetur. Condimentum <br> dignissim adipiscing .</p>
                 </div>
 
 
@@ -159,7 +168,9 @@
 
             <div class="border-dashed border-y-2">
                 <h2 class="pt-8 text-4xl font-extrabold ">Program Sections</h2>
-                <p class="font-medium mt-6 mb-8 text-[#13131899]">In the comprehensive coverage of sports, the Professional Hockeys section stands out as a hub for elite competitions, capturing the <br> essence of top-tier hockey tournaments and leagues worldwide.</p>
+                <p class="font-medium mt-6 mb-8 text-[#13131899]">In the comprehensive coverage of sports, the
+                    Professional Hockeys section stands out as a hub for elite competitions, capturing the <br> essence
+                    of top-tier hockey tournaments and leagues worldwide.</p>
             </div>
 
             <!-- program section card container  -->
@@ -171,9 +182,7 @@
                     <div class="hero-content text-left p-10 ">
                         <div class=" text-white">
                             <h4 class="mb-4 mt-24 text-3xl font-extrabold">Junior Program</h4>
-                            <p class="mb-6 font-medium">Dolor sit amet consectetur. Ut urna diam quis sagittis. Elit
-                                <br> elit enim sagittis turpis in magna. Id et sed euismod natoque amet <br> nuncmorbi
-                                nulla. Tortor congue sed et in.
+                            <p class="mb-6 font-medium">Embark on a coding journey with our Junior Program, designed to nurture young minds in the fascinating world of programming through engaging and interactive learning experiences.
                             </p>
                             <button
                                 class=" bg-red-500 text-white border-0 px-6 py-3 rounded-xl text-xl font-bold ">Register
@@ -182,14 +191,12 @@
                     </div>
                 </div>
                 <!-- card-2  -->
-                <div class="hero rounded-2xl" style="background-image: url(Images/3.png);">
+                <div class="hero rounded-2xl " style="background-image: url(Images/3.png);">
                     <div class="hero-overlay bg-opacity-30 rounded-2xl"></div>
                     <div class="hero-content text-left p-10 ">
                         <div class=" text-white">
                             <h4 class="mb-4 mt-24 text-3xl font-extrabold">Teenager Program</h4>
-                            <p class="mb-6 font-medium">Dolor sit amet consectetur. Ut urna diam quis sagittis. Elit
-                                <br> elit enim sagittis turpis in magna. Id et sed euismod natoque amet <br> nuncmorbi
-                                nulla. Tortor congue sed et in.
+                            <p class="mb-6 font-medium">Unlock the potential of coding and technology in our Teenager Program, where adolescents delve into creative projects, hands-on challenges, and collaborative learning to shape their future in the digital world.
                             </p>
                             <button
                                 class=" bg-red-500 text-white border-0 px-6 py-3 rounded-xl text-xl font-bold ">Register
@@ -197,18 +204,14 @@
                         </div>
                     </div>
                 </div>
-
             </div>
-
             <!-- card-3   -->
-            <div class="bg-cover rounded-2xl mt-6 " style="background-image: url(Images/4.png);">
-                <div class="hero-overlay bg-opacity-30 rounded-2xl "></div>
+            <div class="bg-cover rounded-2xl mt-6" style="background-image: url(Images/4.png); ">
+                <div class="rounded-2xl"></div>
                 <div class=" text-left p-10 ">
                     <div class=" text-white lg:-pl-20">
                         <h4 class="mb-4 mt-24 text-3xl font-extrabold">Professional Program</h4>
-                        <p class="mb-6 font-medium">Dolor sit amet consectetur. Ut urna diam quis sagittis. Elit <br>
-                            elit enim sagittis turpis in magna. Id et sed euismod natoque amet <br> nuncmorbi nulla.
-                            Tortor congue sed et in.</p>
+                        <p class="mb-6 font-medium">Elevate your skills and career with our Professional Program,<br> offering advanced training and specialized insights to empower you in your professional journey.</p>
                         <button class=" bg-red-500 text-white border-0 px-6 py-3 rounded-xl text-xl font-bold ">Register
                             Now!</button>
                     </div>
@@ -220,7 +223,9 @@
         <section class="text-center my-24 mx-5">
             <div class="border-dashed border-y-2">
                 <h2 class="pt-8 text-4xl font-extrabold ">Our New Products</h2>
-                <p class="font-medium mt-6 mb-8 text-[#13131899]">Our new products showcase cutting-edge technology and innovative design, setting a new standard in the market and enhancing the overall customer experience.</p>
+                <p class="font-medium mt-6 mb-8 text-[#13131899]">Our new products showcase cutting-edge technology and
+                    innovative design, setting a new standard in the market and enhancing the overall customer
+                    experience.</p>
             </div>
 
             <!-- product card container  -->
@@ -236,7 +241,8 @@
                         <p class="font-medium"><i class="fa-solid fa-star pr-2 text-yellow-500"></i>5.0 <i
                                 class="fa-solid fa-eye px-2"></i>20 <i class="fa-regular fa-heart px-2"></i>200</p>
                         <h4 class="my-3 text-xl font-extrabold">World Cup Flags Football</h4>
-                        <p class="text-[#13131899] pb-4">Elevate your style with our sleek and versatile jacket, blending fashion and functionality effortlessly.</p>
+                        <p class="text-[#13131899] pb-4">Elevate your style with our sleek and versatile jacket,
+                            blending fashion and functionality effortlessly.</p>
                         <p class="text-[#13131880] font-medium"><span class="text-red-500 text-lg font-extrabold">Price
                                 - $22.00</span> <i class="fa-solid fa-cart-shopping pl-5"></i> Delivery Fee : Free</p>
                     </div>
@@ -251,7 +257,8 @@
                         <p class="font-medium"><i class="fa-solid fa-star pr-2 text-yellow-500"></i>5.0 <i
                                 class="fa-solid fa-eye px-2"></i>20 <i class="fa-regular fa-heart px-2"></i>200</p>
                         <h4 class="my-3 text-xl font-extrabold">Hockey's Ball </h4>
-                        <p class="text-[#13131899] pb-4">Unparalleled excellence defines our products as the pinnacle of quality.</p>
+                        <p class="text-[#13131899] pb-4">Unparalleled excellence defines our products as the pinnacle of
+                            quality.</p>
                         <p class="text-[#13131880] font-medium"><span class="text-red-500 text-lg font-extrabold">Price
                                 - $22.00</span> <i class="fa-solid fa-cart-shopping pl-5"></i> Delivery Fee : Free</p>
                     </div>
@@ -266,7 +273,8 @@
                         <p class="font-medium"><i class="fa-solid fa-star pr-2 text-yellow-500"></i>5.0 <i
                                 class="fa-solid fa-eye px-2"></i>20 <i class="fa-regular fa-heart px-2"></i>200</p>
                         <h4 class="my-3 text-xl font-extrabold">Yellow Cap </h4>
-                        <p class="text-[#13131899] pb-4">Unparalleled excellence defines our products as the pinnacle of quality. </p>
+                        <p class="text-[#13131899] pb-4">Unparalleled excellence defines our products as the pinnacle of
+                            quality. </p>
                         <p class="text-[#13131880] font-medium"><span class="text-red-500 text-lg font-extrabold">Price
                                 - $22.00</span> <i class="fa-solid fa-cart-shopping pl-5"></i> Delivery Fee : Free</p>
                     </div>
@@ -281,7 +289,8 @@
                         <p class="font-medium"><i class="fa-solid fa-star pr-2 text-yellow-500"></i>5.0 <i
                                 class="fa-solid fa-eye px-2"></i>20 <i class="fa-regular fa-heart px-2"></i>200</p>
                         <h4 class="my-3 text-xl font-extrabold">Hockey Jersey</h4>
-                        <p class="text-[#13131899] pb-4">Unparalleled excellence defines our products as the pinnacle of quality.</p>
+                        <p class="text-[#13131899] pb-4">Unparalleled excellence defines our products as the pinnacle of
+                            quality.</p>
                         <p class="text-[#13131880] font-medium"><span class="text-red-500 text-lg font-extrabold">Price
                                 - $22.00</span> <i class="fa-solid fa-cart-shopping pl-5"></i> Delivery Fee : Free</p>
                     </div>
@@ -296,7 +305,8 @@
                         <p class="font-medium"><i class="fa-solid fa-star pr-2 text-yellow-500"></i>5.0 <i
                                 class="fa-solid fa-eye px-2"></i>20 <i class="fa-regular fa-heart px-2"></i>200</p>
                         <h4 class="my-3 text-xl font-extrabold">Helmet</h4>
-                        <p class="text-[#13131899] pb-4">Unparalleled excellence defines our products as the pinnacle of quality.</p>
+                        <p class="text-[#13131899] pb-4">Unparalleled excellence defines our products as the pinnacle of
+                            quality.</p>
                         <p class="text-[#13131880] font-medium"><span class="text-red-500 text-lg font-extrabold">Price
                                 - $22.00</span> <i class="fa-solid fa-cart-shopping pl-5"></i> Delivery Fee : Free</p>
                     </div>
@@ -311,7 +321,8 @@
                         <p class="font-medium"><i class="fa-solid fa-star pr-2 text-yellow-500"></i>5.0 <i
                                 class="fa-solid fa-eye px-2"></i>20 <i class="fa-regular fa-heart px-2"></i>200</p>
                         <h4 class="my-3 text-xl font-extrabold">Football</h4>
-                        <p class="text-[#13131899] pb-4">Unparalleled excellence defines our products as the pinnacle of quality.</p>
+                        <p class="text-[#13131899] pb-4">Unparalleled excellence defines our products as the pinnacle of
+                            quality.</p>
                         <p class="text-[#13131880] font-medium"><span class="text-red-500 text-lg font-extrabold">Price
                                 - $22.00</span> <i class="fa-solid fa-cart-shopping pl-5"></i> Delivery Fee : Free</p>
                     </div>
@@ -320,11 +331,112 @@
             </div>
         </section>
 
+        <!-- Clients Question section  -->
+        <section class="text-center my-24 mx-5">
+            <div class="border-dashed border-y-2">
+                <h2 class="pt-8 text-4xl font-extrabold ">Clients Question</h2>
+                <p class="font-medium mt-6 mb-8 text-[#13131899]">Explore our FAQ section for quick answers to commonly asked questions. <br> Find helpful information about our products/services, policies, and more to enhance your experience with us.</p>
+            </div>
+
+            <!-- FAQ container -->
+            <div class="my-12 p-8 border-2 rounded-2xl grid grid-cols-1 lg:grid-cols-2">
+                <!-- FAQ images  -->
+                <div class=" rounded-2xl">
+                    <img src="Images/11.png" alt="FAQ image">
+                </div>
+                <!-- FAQ content  -->
+                <div class="text-left lg:-ml-16">
+                    <!-- FAQ content 1 -->
+                    <div class="collapse collapse-plus ">
+                        <input type="radio" name="my-accordion-3" checked="checked" />
+                        <div class="collapse-title text-xl font-medium">
+                            What should I do if my equipment is not functioning properly?
+                        </div>
+                        <div class="collapse-content">
+                            <p> If you're experiencing issues, first consult the troubleshooting section in the user
+                                manual. Check for common issues like loose connections or power supply problems. If
+                                problems persist, contact our dedicated support team for personalized assistance.</p>
+                        </div>
+                    </div>
+                    <hr>
+                    <!-- FAQ content 2 -->
+                    <div class="collapse collapse-plus ">
+                        <input type="radio" name="my-accordion-3" />
+                        <div class="collapse-title text-xl font-medium">
+                            How do I properly maintain and care for the equipment I purchased?
+                        </div>
+                        <div class="collapse-content">
+                            <p>Proper maintenance is crucial for optimal equipment performance. Refer to the user manual
+                                for specific guidelines. Regular cleaning, timely inspections, and adherence to
+                                recommended usage practices will extend the lifespan and efficiency of your equipment.
+                                If you have further questions, feel free to contact our support team for assistance.</p>
+                        </div>
+                    </div>
+                    <hr>
+                    <!-- FAQ content 3 -->
+                    <div class="collapse collapse-plus ">
+                        <input type="radio" name="my-accordion-3" />
+                        <div class="collapse-title text-xl font-medium">
+                            Can I purchase replacement parts for my equipment?
+                        </div>
+                        <div class="collapse-content">
+                            <p>Yes, we offer a range of replacement parts for our equipment. Visit our official
+                                website's 'Parts and Accessories' section to browse and order specific components. For
+                                further assistance, reach out to our customer support team.</p>
+                        </div>
+                    </div>
+                    <hr>
+                    <!-- FAQ content 4 -->
+                    <div class="collapse collapse-plus ">
+                        <input type="radio" name="my-accordion-3" checked="checked" />
+                        <div class="collapse-title text-xl font-medium">
+                            Is there a warranty for the equipment, and how does it work?
+                        </div>
+                        <div class="collapse-content">
+                            <p>Yes, our equipment comes with a warranty. The duration and terms vary by product; refer
+                                to the warranty information in your user manual or on our website. To initiate a
+                                warranty claim or for more details, contact our customer service team.</p>
+                        </div>
+                    </div>
+                    <hr>
+                    <!-- FAQ content 5 -->
+                    <div class="collapse collapse-plus ">
+                        <input type="radio" name="my-accordion-3" />
+                        <div class="collapse-title text-xl font-medium">
+                            Can I upgrade my equipment to the latest model?
+                        </div>
+                        <div class="collapse-content">
+                            <p>Yes, we often offer upgrade programs. Check our website or contact our sales department
+                                for information on the latest models and available upgrade options. We're happy to
+                                assist you in enhancing your equipment.</p>
+                        </div>
+                    </div>
+                    <hr>
+                    <!-- FAQ content 6 -->
+                    <div class="collapse collapse-plus ">
+                        <input type="radio" name="my-accordion-3" />
+                        <div class="collapse-title text-xl font-medium">
+                            Are there any recommended accessories for my equipment?
+                        </div>
+                        <div class="collapse-content">
+                            <p>Yes, we provide a list of recommended accessories that complement and enhance the
+                                functionality of your equipment. Visit our 'Accessories' page on the website to explore
+                                compatible add-ons. If you have specific inquiries, our support team is ready to assist
+                                you.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </section>
+
         <!-- Get In Touch section  -->
         <section class="text-center my-24 mx-5">
             <div class="border-dashed border-y-2">
                 <h2 class="pt-8 text-4xl font-extrabold ">Get In Touch</h2>
-                <p class="font-medium mt-6 mb-8 text-[#13131899]">Get in touch with us to explore new possibilities and discover how we can collaborate for mutual  <br>success. We're just a message away, ready to answer your inquiries and discuss potential opportunities</p>
+                <p class="font-medium mt-6 mb-8 text-[#13131899]">Get in touch with us to explore new possibilities and
+                    discover how we can collaborate for mutual <br>success. We're just a message away, ready to answer
+                    your inquiries and discuss potential opportunities</p>
             </div>
             <!-- information container  -->
             <div class="grid grid-cols-1  lg:grid-cols-2 ">
@@ -411,7 +523,8 @@
             <!-- column 1 -->
             <div class=" py-10">
                 <h3 class="text-2xl text-white">Get In Touch</h3>
-                <p class="font-medium text-[#FFFFFF99] pt-4 pb-6">Feel free to get in touch with us for any inquiries or assistance. We're here to help and look forward to hearing from you!</p>
+                <p class="font-medium text-[#FFFFFF99] pt-4 pb-6">Feel free to get in touch with us for any inquiries or
+                    assistance. We're here to help and look forward to hearing from you!</p>
                 <h5 class=" pb-5 font-medium text-[#FFFFFF99]"><i
                         class="fa-regular fa-envelope text-red-500 pr-4"></i>hockeys@support.com</h5>
                 <h5 class="font-medium text-[#FFFFFF99]"><i class="fa-solid fa-phone text-red-500 pr-4"></i>(+62)
